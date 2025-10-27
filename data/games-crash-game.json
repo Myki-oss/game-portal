@@ -1,0 +1,58 @@
+{
+  "category": "crash-game",
+  "title": "Crash Game",
+  "seo": {
+    "title": "Game Crash Online - Aviator, Spaceman & Multiplier Game",
+    "description": "Coba keberuntungan Anda di game crash dengan multiplier tinggi. Raih kemenangan besar sebelum pesawat jatuh di Aviator, Spaceman, dan game populer lainnya."
+  },
+  "items": [
+    {
+      "id": "aviator",
+      "name": "Aviator",
+      "provider": "Spribe",
+      "thumb": "/images/games/aviator.jpg",
+      "tags": ["popular", "multiplier"],
+      "rtp": 97.0
+    },
+    {
+      "id": "spaceman",
+      "name": "Spaceman",
+      "provider": "Pragmatic Play",
+      "thumb": "/images/games/spaceman.jpg",
+      "tags": ["popular", "multiplier"],
+      "rtp": 96.5
+    },
+    {
+      "id": "jetx",
+      "name": "JetX",
+      "provider": "SmartSoft Gaming",
+      "thumb": "/images/games/jetx.jpg",
+      "tags": ["classic", "multiplier"],
+      "rtp": 96.8
+    },
+    {
+      "id": "crash-x",
+      "name": "Crash X",
+      "provider": "Turbo Games",
+      "thumb": "/images/games/cashx.jpg",
+      "tags": ["new", "fast-paced"],
+      "rtp": 97.2
+    },
+    {
+      "id": "zeppelin",
+      "name": "Zeppelin",
+      "provider": "Betsolutions",
+      "thumb": "/images/games/zeppelin.jpg",
+      "tags": ["unique", "multiplier"],
+      "rtp": 95.5
+    },
+    {
+      "id": "rocket-queen",
+      "name": "Rocket Queen",
+      "provider": "Onlyplay",
+      "thumb": "/images/games/rocket-queen.jpg",
+      "tags": ["new", "feature-rich"],
+      "rtp": 96.0
+    }
+  ]
+}

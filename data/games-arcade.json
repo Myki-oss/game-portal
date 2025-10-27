@@ -1,0 +1,58 @@
+{
+  "category": "arcade",
+  "title": "Arcade",
+  "seo": {
+    "title": "Game Arcade Online - Klasik & Modern",
+    "description": "Mainkan ribuan game arcade seru dari masa lalu hingga sekarang. Temukan game puzzle, aksi, dan klasik favorit Anda di sini."
+  },
+  "items": [
+    {
+      "id": "pac-man",
+      "name": "Pac-Man",
+      "provider": "Bandai Namco",
+      "thumb": "/images/games/pacman.jpg",
+      "tags": ["classic", "retro"],
+      "rtp": 95.0
+    },
+    {
+      "id": "space-invaders",
+      "name": "Space Invaders",
+      "provider": "Taito",
+      "thumb": "/images/games/space-invaders.jpg",
+      "tags": ["classic", "shooter"],
+      "rtp": 94.5
+    },
+    {
+      "id": "street-fighter-ii",
+      "name": "Street Fighter II",
+      "provider": "Capcom",
+      "thumb": "/images/games/sf2.jpg",
+      "tags": ["fighting", "popular"],
+      "rtp": 96.0
+    },
+    {
+      "id": "tetris",
+      "name": "Tetris",
+      "provider": "The Tetris Company",
+      "thumb": "/images/games/tetris.jpg",
+      "tags": ["puzzle", "classic"],
+      "rtp": 98.0
+    },
+    {
+      "id": "metal-slug",
+      "name": "Metal Slug",
+      "provider": "SNK",
+      "thumb": "/images/games/metal-slug.jpg",
+      "tags": ["action", "run-and-gun"],
+      "rtp": 94.8
+    },
+    {
+      "id": "bubble-shooter",
+      "name": "Bubble Shooter",
+      "provider": "Ilyon",
+      "thumb": "/images/games/bubble-shooter.jpg",
+      "tags": ["puzzle", "casual"],
+      "rtp": 96.5
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "category": "e-sports",
+  "title": "E-Sports",
+  "seo": {
+    "title": "Taruhan E-Sports Online - Dota 2, CS:GO, LoL & Valorant",
+    "description": "Ikuti dan pasang taruhan pada turnamen e-sports terbesar. Dapatkan odds terbaik untuk Dota 2, League of Legends, CS:GO, dan game kompetitif lainnya."
+  },
+  "items": [
+    {
+      "id": "dota-2-international",
+      "name": "The International - Dota 2",
+      "provider": "Pinnacle",
+      "thumb": "/images/games/dota2.jpg",
+      "tags": ["popular", "tournament", "moba"],
+      "rtp": 94.5
+    },
+    {
+      "id": "lol-worlds",
+      "name": "World Championship - LoL",
+      "provider": "Pinnacle",
+      "thumb": "/images/games/lol.jpg",
+      "tags": ["popular", "tournament", "moba"],
+      "rtp": 94.8
+    },
+    {
+      "id": "csgo-major",
+      "name": "CS:GO Major Championship",
+      "provider": "Pinnacle",
+      "thumb": "/images/games/csgo.jpg",
+      "tags": ["fps", "tournament", "popular"],
+      "rtp": 94.6
+    },
+    {
+      "id": "valorant-champions",
+      "name": "Valorant Champions",
+      "provider": "Pinnacle",
+      "thumb": "/images/games/valorant.jpg",
+      "tags": ["fps", "tournament", "new"],
+      "rtp": 95.0
+    },
+    {
+      "id": "overwatch-league",
+      "name": "Overwatch League",
+      "provider": "Pinnacle",
+      "thumb": "/images/games/overwatch.jpg",
+      "tags": ["fps", "tournament"],
+      "rtp": 93.5
+    },
+    {
+      "id": "pubg-global",
+      "name": "PUBG Global Championship",
+      "provider": "Pinnacle",
+      "thumb": "/images/games/pubg.jpg",
+      "tags": ["battle-royale", "tournament"],
+      "rtp": 94.2
+    }
+  ]
+}

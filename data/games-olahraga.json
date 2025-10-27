@@ -1,0 +1,58 @@
+{
+  "category": "olahraga",
+  "title": "Olahraga",
+  "seo": {
+    "title": "Taruhan Olahraga Online - Sepakbola, Basket & Lainnya",
+    "description": "Pasang taruhan pada pertandingan olahraga favorit Anda. Dapatkan odds terbaik untuk sepakbola, basket, tenis, dan banyak lagi."
+  },
+  "items": [
+    {
+      "id": "premier-league",
+      "name": "Premier League",
+      "provider": "SBOBET",
+      "thumb": "/images/games/premier-league.jpg",
+      "tags": ["popular", "football"],
+      "rtp": 94.5
+    },
+    {
+      "id": "nba",
+      "name": "NBA",
+      "provider": "SBOBET",
+      "thumb": "/images/games/nba.jpg",
+      "tags": ["popular", "basketball"],
+      "rtp": 94.8
+    },
+    {
+      "id": "la-liga",
+      "name": "La Liga",
+      "provider": "SBOBET",
+      "thumb": "/images/games/la-liga.jpg",
+      "tags": ["football", "europe"],
+      "rtp": 94.6
+    },
+    {
+      "id": "wimbledon",
+      "name": "Wimbledon",
+      "provider": "SBOBET",
+      "thumb": "/images/games/wimbledon.jpg",
+      "tags": ["tennis", "grand-slam"],
+      "rtp": 95.0
+    },
+    {
+      "id": "motogp",
+      "name": "MotoGP",
+      "provider": "SBOBET",
+      "thumb": "/images/games/motogp-sports.jpg",
+      "tags": ["motorsport", "popular"],
+      "rtp": 93.5
+    },
+    {
+      "id": "badminton",
+      "name": "BWF World Tour",
+      "provider": "SBOBET",
+      "thumb": "/images/games/badminton.jpg",
+      "tags": ["badminton", "asia"],
+      "rtp": 94.2
+    }
+  ]
+}

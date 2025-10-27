@@ -1,0 +1,14 @@
+{
+  "categories": [
+    { "id": "hot-games", "name": "HOT GAMES", "path": "/hot-games", "description": "Game paling populer saat ini" },
+    { "id": "slots", "name": "SLOTS", "path": "/slots", "description": "Mesin slot online terlengkap" },
+    { "id": "live-casino", "name": "LIVE CASINO", "path": "/live-casino", "description": "Kasino langsung dengan dealer profesional" },
+    { "id": "race", "name": "RACE", "path": "/race", "description": "Balapan kuda dan mobil" },
+    { "id": "olahraga", "name": "OLAHRAGA", "path": "/olahraga", "description": "Taruhan olahraga terlengkap" },
+    { "id": "crash-game", "name": "CRASH GAME", "path": "/crash-game", "description": "Game crash dengan multiplier tinggi" },
+    { "id": "arcade", "name": "ARCADE", "path": "/arcade", "description": "Game arcade klasik dan modern" },
+    { "id": "poker", "name": "POKER", "path": "/poker", "description": "Variasi poker online" },
+    { "id": "e-sports", "name": "E-SPORTS", "path": "/e-sports", "description": "Taruhan e-sports global" },
+    { "id": "sabung-a", "name": "SABUNG A", "path": "/sabung-a", "description": "Sabung ayam online" }
+  ]
+}

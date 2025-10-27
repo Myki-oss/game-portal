@@ -1,0 +1,10 @@
+{
+  "providers": [
+    { "id": "pragmatic-play", "name": "Pragmatic Play", "logo": "/images/providers/pragmatic-play.png" },
+    { "id": "pg-soft", "name": "PG Soft", "logo": "/images/providers/pg-soft.png" },
+    { "id": "habanero", "name": "Habanero", "logo": "/images/providers/habanero.png" },
+    { "id": "microgaming", "name": "Microgaming", "logo": "/images/providers/microgaming.png" },
+    { "id": "netent", "name": "NetEnt", "logo": "/images/providers/netent.png" },
+    { "id": "playtech", "name": "Playtech", "logo": "/images/providers/playtech.png" }
+  ]
+}

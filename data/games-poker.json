@@ -1,0 +1,58 @@
+{
+  "category": "poker",
+  "title": "Poker",
+  "seo": {
+    "title": "Game Poker Online - Texas Hold'em & Variasi Lainnya",
+    "description": "Mainkan poker online dengan pemain dari seluruh Indonesia. Nikmati Texas Hold'em, Omaha, dan berbagai turnamen poker dengan jackpot menarik."
+  },
+  "items": [
+    {
+      "id": "texas-holdem",
+      "name": "Texas Hold'em",
+      "provider": "IDN Poker",
+      "thumb": "/images/games/texas-holdem.jpg",
+      "tags": ["popular", "tournament"],
+      "rtp": 98.5
+    },
+    {
+      "id": "omaha",
+      "name": "Omaha",
+      "provider": "IDN Poker",
+      "thumb": "/images/games/omaha.jpg",
+      "tags": ["popular", "action"],
+      "rtp": 98.0
+    },
+    {
+      "id": "capsa-susun",
+      "name": "Capsa Susun",
+      "provider": "IDN Poker",
+      "thumb": "/images/games/capsa.jpg",
+      "tags": ["classic", "skill"],
+      "rtp": 97.5
+    },
+    {
+      "id": "super-10",
+      "name": "Super 10",
+      "provider": "IDN Poker",
+      "thumb": "/images/games/super10.jpg",
+      "tags": ["simple", "fast-paced"],
+      "rtp": 97.0
+    },
+    {
+      "id": "ceme",
+      "name": "Ceme",
+      "provider": "IDN Poker",
+      "thumb": "/images/games/ceme.jpg",
+      "tags": ["popular", "easy"],
+      "rtp": 96.8
+    },
+    {
+      "id": "domino-qq",
+      "name": "Domino QQ",
+      "provider": "IDN Poker",
+      "thumb": "/images/games/domino-qq.jpg",
+      "tags": ["classic", "popular"],
+      "rtp": 97.2
+    }
+  ]
+}

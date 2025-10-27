@@ -1,0 +1,42 @@
+{
+  "category": "sabung-a",
+  "title": "Sabung Ayam",
+  "seo": {
+    "title": "Sabung Ayam Online - Arena Tarung Terpercaya",
+    "description": "Saksikan dan pasang taruhan pada pertandingan sabung ayam online terbaik. Streaming langsung, odds fair, dan bonus menarik setiap hari."
+  },
+  "items": [
+    {
+      "id": "sv388-sabung-ayam",
+      "name": "SV388 Sabung Ayam",
+      "provider": "SV388",
+      "thumb": "/images/games/sv388.jpg",
+      "tags": ["popular", "live-streaming"],
+      "rtp": 95.0
+    },
+    {
+      "id": "s128-sabung-ayam",
+      "name": "S128 Sabung Ayam",
+      "provider": "S128",
+      "thumb": "/images/games/s128.jpg",
+      "tags": ["classic", "live-streaming"],
+      "rtp": 94.5
+    },
+    {
+      "id": "cock-fight-championship",
+      "name": "Cock Fight Championship",
+      "provider": "SV388",
+      "thumb": "/images/games/cfc.jpg",
+      "tags": ["tournament", "high-stakes"],
+      "rtp": 96.0
+    },
+    {
+      "id": "thai-fight",
+      "name": "Thai Fight",
+      "provider": "S128",
+      "thumb": "/images/games/thaifight.jpg",
+      "tags": ["new", "bonus-round"],
+      "rtp": 94.8
+    }
+  ]
+}

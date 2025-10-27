@@ -1,0 +1,40 @@
+{
+  "seo": {
+    "title": "Dukungan Pelanggan Ajaib88 - Bantuan 24 Jam",
+    "description": "Hubungi tim dukungan Ajaib88 untuk bantuan akun, bonus, transaksi, dan kendala teknis. Tersedia live chat dan Telegram resmi 24 jam nonstop."
+  },
+  "intro": {
+    "headline": "Dukungan Pelanggan 24 Jam",
+    "descriptionTop": "Kami siap membantu Anda kapan saja. Tim dukungan Ajaib88 aktif 24 jam setiap hari untuk menyelesaikan kendala terkait akun, deposit, withdraw, dan bonus.",
+    "descriptionBottom": "Gunakan hanya jalur resmi kami untuk menghindari penipuan. Semua komunikasi dilakukan melalui live chat di situs atau Telegram terverifikasi."
+  },
+  "channels": [
+    {
+      "type": "Live Chat",
+      "description": "Layanan obrolan langsung dengan agen dukungan kami, tersedia 24 jam untuk membantu kendala akun, transaksi, dan bonus.",
+      "actionText": "Buka Live Chat",
+      "link": "#livechat"
+    },
+    {
+      "type": "Telegram Resmi",
+      "description": "Hubungi channel dan admin resmi kami di Telegram. Pastikan Anda hanya berinteraksi dengan akun yang terverifikasi.",
+      "actionText": "t.me/ajaib88official",
+      "link": "https://t.me/ajaib88official"
+    },
+    {
+      "type": "Pemulihan Akun",
+      "description": "Jika Anda lupa password atau akun terkunci, ikuti langkah-langkah di bawah ini untuk memulihkan akses.",
+      "steps": [
+        "Buka halaman login lalu pilih 'Lupa Password'.",
+        "Masukkan username atau kontak yang terdaftar.",
+        "Jika tetap tidak bisa, hubungi Live Chat untuk verifikasi manual."
+      ]
+    }
+  ],
+  "cta": {
+    "headline": "Butuh Bantuan Sekarang?",
+    "description": "Tim CS kami aktif 24/7. Kami bantu Anda sampai masalah selesai, bukan cuma kasih template jawaban.",
+    "buttonText": "Hubungi CS",
+    "buttonLink": "#livechat"
+  }
+}

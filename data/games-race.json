@@ -1,0 +1,58 @@
+{
+  "category": "race",
+  "title": "Race",
+  "seo": {
+    "title": "Taruhan Balapan Online - Kuda & Mobil Tercepat",
+    "description": "Pasang taruhan pada balapan kuda dan mobil terpopuler. Nikmati odds terbaik, streaming langsung, dan analisis pertandingan lengkap."
+  },
+  "items": [
+    {
+      "id": "horse-racing-uk",
+      "name": "Horse Racing UK",
+      "provider": "SBOBET",
+      "thumb": "/images/games/horse-uk.jpg",
+      "tags": ["popular", "live-streaming"],
+      "rtp": 92.5
+    },
+    {
+      "id": "formula-1",
+      "name": "Formula 1",
+      "provider": "SBOBET",
+      "thumb": "/images/games/f1.jpg",
+      "tags": ["motorsport", "global"],
+      "rtp": 93.0
+    },
+    {
+      "id": "virtual-horses",
+      "name": "Virtual Horses",
+      "provider": "Pragmatic Play",
+      "thumb": "/images/games/virtual-horses.jpg",
+      "tags": ["virtual", "new"],
+      "rtp": 95.0
+    },
+    {
+      "id": "greyhound-racing",
+      "name": "Greyhound Racing",
+      "provider": "SBOBET",
+      "thumb": "/images/games/greyhound.jpg",
+      "tags": ["classic", "fast-paced"],
+      "rtp": 92.0
+    },
+    {
+      "id": "moto-gp",
+      "name": "Moto GP",
+      "provider": "SBOBET",
+      "thumb": "/images/games/motogp.jpg",
+      "tags": ["motorsport", "popular"],
+      "rtp": 93.5
+    },
+    {
+      "id": "speedway",
+      "name": "Speedway",
+      "provider": "SBOBET",
+      "thumb": "/images/games/speedway.jpg",
+      "tags": ["niche", "exciting"],
+      "rtp": 91.8
+    }
+  ]
+}

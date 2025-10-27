@@ -1,0 +1,13 @@
+{
+  "category": "hot-games",
+  "title": "Hot Games",
+  "seo": { "title": "Hot Games — Game Populer Hari Ini", "description": "Kumpulan game terpopuler dengan peluang dan event mingguan." },
+  "items": [
+    { "id": "gates-of-olympus", "name": "Gates of Olympus", "provider": "Pragmatic Play", "thumb": "/images/games/gates.jpg", "tags": ["popular", "jackpot"], "rtp": 96.5 },
+    { "id": "mahjong-ways-2", "name": "Mahjong Ways 2", "provider": "PG Soft", "thumb": "/images/games/mahjong2.jpg", "tags": ["trending"], "rtp": 96.1 },
+    { "id": "sweet-bonanza", "name": "Sweet Bonanza", "provider": "Pragmatic Play", "thumb": "/images/games/sweet.jpg", "tags": ["popular", "jackpot"], "rtp": 96.5 },
+    { "id": "starlight-princess", "name": "Starlight Princess", "provider": "Pragmatic Play", "thumb": "/images/games/starlight.jpg", "tags": ["trending"], "rtp": 96.5 },
+    { "id": "wild-west-gold", "name": "Wild West Gold", "provider": "Pragmatic Play", "thumb": "/images/games/wildwest.jpg", "tags": ["popular"], "rtp": 96.5 },
+    { "id": "fortune-ox", "name": "Fortune Ox", "provider": "PG Soft", "thumb": "/images/games/fortune.jpg", "tags": ["new"], "rtp": 96.8 }
+  ]
+}

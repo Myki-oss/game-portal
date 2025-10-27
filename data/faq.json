@@ -1,0 +1,37 @@
+{
+  "seo": {
+    "title": "FAQ Ajaib88 - Bantuan, Akun, Bonus, dan Keamanan",
+    "description": "Pertanyaan yang sering ditanyakan pemain Ajaib88: cara daftar akun, klaim bonus, proses deposit & withdraw, keamanan data, dan bantuan customer service 24 jam."
+  },
+  "intro": {
+    "headline": "FAQ (Pertanyaan yang Sering Diajukan)",
+    "descriptionTop": "Di halaman ini, kami menjawab pertanyaan umum seputar pendaftaran akun, bonus, transaksi, keamanan, dan dukungan pelanggan di Ajaib88. Baca dulu di sini sebelum hubungi CS supaya lebih cepat.",
+    "descriptionBottom": "Jika Anda masih membutuhkan bantuan setelah membaca FAQ ini, tim dukungan kami siap 24/7 melalui live chat atau Telegram resmi."
+  },
+  "items": [
+    {
+      "q": "Bagaimana cara mendaftar akun baru?",
+      "a": "Klik tombol 'Daftar' di bagian atas situs. Isi data dengan benar (username, nomor kontak aktif, dan password). Setelah itu, selesaikan pendaftaran. Jangan bagikan detail akun Anda ke siapa pun."
+    },
+    {
+      "q": "Apakah bonus 100% berlaku untuk semua member baru?",
+      "a": "Ya. Semua member baru berhak mendapatkan bonus deposit 100% selama memenuhi syarat minimal deposit dan ketentuan rollover/wager. Detail promo bisa berubah sewaktu-waktu."
+    },
+    {
+      "q": "Berapa lama proses deposit dan withdraw?",
+      "a": "Deposit biasanya masuk secara instan setelah pembayaran terkonfirmasi. Withdraw umumnya diproses cepat selama data akun Anda valid dan tidak ada pemeriksaan tambahan keamanan."
+    },
+    {
+      "q": "Apakah data saya aman?",
+      "a": "Kami menggunakan enkripsi dan sistem proteksi akun berlapis. Jangan pernah login lewat link yang mencurigakan. Selalu pastikan Anda mengakses situs resmi."
+    },
+    {
+      "q": "Bagaimana jika saya lupa password?",
+      "a": "Gunakan fitur 'Lupa Password' di halaman login. Ikuti langkah pemulihan akun. Kalau masih terkunci, hubungi dukungan 24 jam untuk verifikasi manual."
+    },
+    {
+      "q": "Bagaimana cara menghubungi dukungan CS?",
+      "a": "Anda bisa menghubungi kami melalui live chat di situs, Telegram resmi, atau kanal bantuan yang tertera di bagian 'Dukungan'. Layanan tersedia 24/7."
+    }
+  ]
+}

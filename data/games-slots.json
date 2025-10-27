@@ -1,0 +1,15 @@
+{
+  "category": "slots",
+  "title": "Slot Games",
+  "seo": { "title": "Game Slot Online Gacor Terlengkap - RTP Tertinggi", "description": "Rasakan sensasi menang besar di ribuan game slot online dengan RTP tertinggi." },
+  "items": [
+    { "id": "gates-of-olympus", "name": "Gates of Olympus", "provider": "Pragmatic Play", "thumb": "/images/games/gates.jpg", "tags": ["popular", "jackpot"], "rtp": 96.5 },
+    { "id": "sweet-bonanza", "name": "Sweet Bonanza", "provider": "Pragmatic Play", "thumb": "/images/games/sweet.jpg", "tags": ["popular"], "rtp": 96.5 },
+    { "id": "mahjong-ways-2", "name": "Mahjong Ways 2", "provider": "PG Soft", "thumb": "/images/games/mahjong2.jpg", "tags": ["trending"], "rtp": 96.1 },
+    { "id": "starlight-princess", "name": "Starlight Princess", "provider": "Pragmatic Play", "thumb": "/images/games/starlight.jpg", "tags": ["trending"], "rtp": 96.5 },
+    { "id": "wild-west-gold", "name": "Wild West Gold", "provider": "Pragmatic Play", "thumb": "/images/games/wildwest.jpg", "tags": ["popular"], "rtp": 96.5 },
+    { "id": "fortune-ox", "name": "Fortune Ox", "provider": "PG Soft", "thumb": "/images/games/fortune.jpg", "tags": ["new"], "rtp": 96.8 },
+    { "id": "the-dog-house", "name": "The Dog House", "provider": "Pragmatic Play", "thumb": "/images/games/doghouse.jpg", "tags": ["sticky-wilds"], "rtp": 95.5 },
+    { "id": "koi-gate", "name": "Koi Gate", "provider": "Habanero", "thumb": "/images/games/koigate.jpg", "tags": ["progressive"], "rtp": 96.6 }
+  ]
+}

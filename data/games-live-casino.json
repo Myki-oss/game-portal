@@ -1,0 +1,58 @@
+{
+  "category": "live-casino",
+  "title": "Live Casino",
+  "seo": {
+    "title": "Live Casino Online - Dealer Profesional 24/7",
+    "description": "Mainkan Live Casino dengan dealer sungguhan. Nikmati Baccarat, Roulette, Blackjack, dan Sic Bo dengan streaming HD dan taruhan minimal terjangkau."
+  },
+  "items": [
+    {
+      "id": "baccarat-squeeze",
+      "name": "Baccarat Squeeze",
+      "provider": "Evolution Gaming",
+      "thumb": "/images/games/baccarat.jpg",
+      "tags": ["popular", "high-stakes"],
+      "rtp": 98.9
+    },
+    {
+      "id": "lightning-roulette",
+      "name": "Lightning Roulette",
+      "provider": "Evolution Gaming",
+      "thumb": "/images/games/lightning-roulette.jpg",
+      "tags": ["popular", "multiplier"],
+      "rtp": 97.1
+    },
+    {
+      "id": "crazy-time",
+      "name": "Crazy Time",
+      "provider": "Evolution Gaming",
+      "thumb": "/images/games/crazytime.jpg",
+      "tags": ["game-show", "new"],
+      "rtp": 96.0
+    },
+    {
+      "id": "infinite-blackjack",
+      "name": "Infinite Blackjack",
+      "provider": "Evolution Gaming",
+      "thumb": "/images/games/infinite-bj.jpg",
+      "tags": ["blackjack", "popular"],
+      "rtp": 99.5
+    },
+    {
+      "id": "dream-catcher",
+      "name": "Dream Catcher",
+      "provider": "Evolution Gaming",
+      "thumb": "/images/games/dreamcatcher.jpg",
+      "tags": ["game-show", "wheel"],
+      "rtp": 96.5
+    },
+    {
+      "id": "sic-bo",
+      "name": "Sic Bo",
+      "provider": "Pragmatic Play",
+      "thumb": "/images/games/sicbo.jpg",
+      "tags": ["dice", "classic"],
+      "rtp": 97.2
+    }
+  ]
+}
