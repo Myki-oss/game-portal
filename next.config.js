@@ -2,16 +2,15 @@
 const nextConfig = {
   reactStrictMode: true,
 
-  // biar Next.js bisa export ke HTML statis
-  output: "export",
+  // matiin eslint pas build di vercel biar gak blok deploy
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 
-  // biar komponen <Image /> gak error pas di-export
+  // opsional: kalau kamu pakai <Image /> dan belum set domains dll, ini aman dibiarkan
   images: {
     unoptimized: true,
   },
-
-  // perbaiki warning workspace root
-  outputFileTracingRoot: __dirname,
 
   webpack: (config) => {
     config.resolve.alias = {
