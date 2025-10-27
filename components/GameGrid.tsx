@@ -17,7 +17,17 @@ export function GameGrid({ games, columns = 4 }: GameGridProps) {
   return (
     <div className={`grid ${gridCols[columns]} gap-4`}>
       {games.map((game, index) => (
-        <GameCard key={game.id} id={game.id} name={game.name} provider={game.provider} thumb={game.thumb} tags={game.tags} rtp={game.rtp} priority={index < 6} />
+        <GameCard
+          key={game.id}
+          id={game.id}
+          name={game.name}
+          provider={game.provider}
+          thumb={game.thumb}
+          tags={game.tags}
+          rtp={game.rtp}
+          priority={index < 6}
+          url={game.url} // <-- INI PENTING
+        />
       ))}
     </div>
   );

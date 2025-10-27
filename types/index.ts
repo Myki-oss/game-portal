@@ -5,6 +5,7 @@ export interface Game {
   thumb: string;
   tags: string[];
   rtp: number;
+  url?: string;
 }
 
 export interface Provider {

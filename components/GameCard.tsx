@@ -1,5 +1,6 @@
+"use client";
+
 import Image from "next/image";
-import Link from "next/link";
 import { Badge } from "./Badge";
 
 interface GameCardProps {
@@ -10,35 +11,87 @@ interface GameCardProps {
   tags: string[];
   rtp: number;
   priority?: boolean;
+  url?: string; // <- new
 }
 
-export function GameCard({ id, name, provider, thumb, tags, rtp, priority = false }: GameCardProps) {
-  return (
-    <Link href={`/games/${id}`} className="group block">
-      <div className="relative overflow-hidden rounded-lg bg-neutral-800 transition-all duration-300 hover:ring-2 hover:ring-orange-500">
-        <div className="aspect-[4/3] overflow-hidden">
-          <Image src={thumb} alt={name} fill className="object-cover transition-transform duration-300 group-hover:scale-105" priority={priority} sizes="(max-width: 768px) 50vw, (max-width: 1200px) 25vw, 20vw" />
-        </div>
-        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
-        <div className="absolute bottom-0 left-0 right-0 p-3">
-          <div className="flex items-center justify-between">
-            <div className="flex-1">
-              <h3 className="truncate text-sm font-semibold text-white">{name}</h3>
-              <p className="truncate text-xs text-neutral-400">{provider}</p>
-            </div>
-            <div className="ml-2 flex items-center">
-              <span className="text-xs font-medium text-green-400">{rtp}%</span>
-            </div>
+export function GameCard({
+  id,
+  name,
+  provider,
+  thumb,
+  tags,
+  rtp,
+  priority = false,
+  url,
+}: GameCardProps) {
+  // Kalo ga ada URL -> kita jangan kasih link keluar.
+  // Biar gak ngeklik ke /games/... lagi, kita matiin <a> nya dan cuma render div doang.
+  const clickable = Boolean(url);
+
+  const CardInner = (
+    <div className="relative overflow-hidden rounded-lg bg-neutral-800 transition-all duration-300 hover:ring-2 hover:ring-orange-500">
+      <div className="aspect-[4/3] overflow-hidden relative">
+        <Image
+          src={thumb}
+          alt={name}
+          fill
+          className="object-cover transition-transform duration-300 group-hover:scale-105"
+          priority={priority}
+          sizes="(max-width: 768px) 50vw, (max-width: 1200px) 25vw, 20vw"
+        />
+      </div>
+
+      <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
+
+      <div className="absolute bottom-0 left-0 right-0 p-3">
+        <div className="flex items-center justify-between">
+          <div className="flex-1">
+            <h3 className="truncate text-sm font-semibold text-white">
+              {name}
+            </h3>
+            <p className="truncate text-xs text-neutral-400">{provider}</p>
           </div>
-          <div className="mt-2 flex gap-1">
+
+          <div className="ml-2 flex items-center">
+            {typeof rtp === "number" && (
+              <span className="text-xs font-medium text-green-400">
+                {rtp}%
+              </span>
+            )}
+          </div>
+        </div>
+
+        {tags?.length > 0 && (
+          <div className="mt-2 flex flex-wrap gap-1">
             {tags.map((tag) => (
               <Badge key={tag} variant="secondary" className="text-xs">
                 {tag}
               </Badge>
             ))}
           </div>
-        </div>
+        )}
       </div>
-    </Link>
+    </div>
+  );
+
+  // kalau ada url -> bungkus pakai <a> target=_blank
+  // kalau gak ada url -> cuma div biasa (non-clickable)
+  if (clickable) {
+    return (
+      <a
+        href={url}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="group block cursor-pointer"
+      >
+        {CardInner}
+      </a>
+    );
+  }
+
+  return (
+    <div className="group block cursor-default opacity-80">
+      {CardInner}
+    </div>
   );
 }
