@@ -8,7 +8,31 @@ import Image from "next/image";
 export const metadata: Metadata = {
   title: "Ajaib88 - Portal Game Online Terlengkap dan Terbaru di Indonesia",
   description: "Temukan ribuan game online terpopuler dari provider terbaik. Mainkan slot, live casino, poker, dan banyak lagi!",
+  canonical: "https://www.ajaib88.id",
 };
+openGraph: {
+    title: "Ajaib88 - Portal Game Online Terlengkap dan Terbaru di Indonesia",
+    description:
+      "Temukan ribuan game online terpopuler dari provider terbaik. Mainkan slot, live casino, poker, dan banyak lagi!",
+    url: "https://www.ajaib88.id",
+    siteName: "AJAIB88",
+    images: [
+      {
+        url: "https://ajaib88.id/images/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "AJAIB88 Game Portal",
+      },
+    ],
+    locale: "id_ID",
+    type: "website",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+};
+
 
 export default function HomePage() {
   const hotGames = getGamesByCategory("hot-games", 6);
