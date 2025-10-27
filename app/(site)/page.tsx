@@ -6,19 +6,21 @@ import { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Ajaib88 - Portal Game Online Terlengkap dan Terbaru di Indonesia",
-  description: "Temukan ribuan game online terpopuler dari provider terbaik. Mainkan slot, live casino, poker, dan banyak lagi!",
-  canonical: "https://www.ajaib88.id",
-};
-openGraph: {
-    title: "Ajaib88 - Portal Game Online Terlengkap dan Terbaru di Indonesia",
+  title: "AJAIB88 – Portal Game Online Terlengkap dan Terbaru di Indonesia",
+  description:
+    "Temukan ribuan game online terpopuler dari provider terbaik. Mainkan slot, live casino, poker, sabung, crash game, e-sports, dan banyak lagi.",
+  alternates: {
+    canonical: "https://www.ajaib88.id",
+  },
+  openGraph: {
+    title: "AJAIB88 – Portal Game Online Terlengkap dan Terbaru di Indonesia",
     description:
-      "Temukan ribuan game online terpopuler dari provider terbaik. Mainkan slot, live casino, poker, dan banyak lagi!",
+      "Temukan ribuan game online terpopuler dari provider terbaik. Mainkan slot, live casino, poker, sabung, crash game, e-sports, dan banyak lagi.",
     url: "https://www.ajaib88.id",
     siteName: "AJAIB88",
     images: [
       {
-        url: "https://ajaib88.id/images/og-image.jpg",
+        url: "https://www.ajaib88.id/images/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "AJAIB88 Game Portal",
@@ -31,7 +33,7 @@ openGraph: {
     index: true,
     follow: true,
   },
-};
+
 
 
 export default function HomePage() {
