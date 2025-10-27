@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: "E-Sports | GamePortal",
     description: "Pertandingan e-sports dan betting odds.",
     type: "website",
-    url: "https://gameportal.example.com/e-sports",
+    url: "https://www.ajaib88.id/e-sports",
     images: [
       {
         url: "https://gameportal.example.com/images/og-esports.jpg",

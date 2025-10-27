@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: "Sabung A | GamePortal",
         description: "Arena sabung A.",
     type: "website",
-    url: "https://gameportal.example.com/sabung-a",
+    url: "https://www.ajaib88.id/sabung-a",
     images: [
       {
         url: "https://gameportal.example.com/images/og-sabung.jpg",

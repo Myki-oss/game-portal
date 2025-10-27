@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: "Arcade Games | GamePortal",
     description: "Main game arcade populer, terbaru, dan seru.",
     type: "website",
-    url: "https://gameportal.example.com/arcade",
+    url: "https://www.ajaib88.id/arcade",
     images: [
       {
         url: "https://gameportal.example.com/images/og-arcade.jpg",

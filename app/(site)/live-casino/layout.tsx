@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     title: "Live Casino | GamePortal",
     description: "Live dealer, meja asli, interaksi langsung.",
     type: "website",
-    url: "https://gameportal.example.com/live-casino",
+    url: "https://www.ajaib88.id/live-casino",
     images: [
       {
         url: "https://gameportal.example.com/images/og-livecasino.jpg",
