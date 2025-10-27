@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     description:
       "Tim dukungan siap 24/7 untuk membantu Anda dengan akun, deposit, withdraw, bonus, dan kendala teknis.",
     type: "website",
-    url: "https://gameportal.example.com/dukungan",
+    url: "https://www.ajaib88.id/dukungan",
     images: [
       {
         url: "https://gameportal.example.com/images/og-support.jpg",

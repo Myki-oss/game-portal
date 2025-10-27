@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     title: data.seo.title,
     description: data.seo.description,
     type: "website",
-    url: "https://gameportal.example.com/tournament-info",
+    url: "https://www.ajaib88.id/tournament-info",
     images: [
       {
         url: "https://gameportal.example.com/images/og-tournament.jpg",

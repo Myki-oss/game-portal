@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: faqData.seo.title,
     description: faqData.seo.description,
     type: "website",
-    url: "https://gameportal.example.com/faq",
+    url: "https://www.ajaib88.id/faq",
     images: [
       {
         url: "https://gameportal.example.com/images/og-faq.jpg",
