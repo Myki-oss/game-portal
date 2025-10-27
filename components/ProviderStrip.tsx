@@ -15,7 +15,6 @@ export function ProviderStrip({ providers, title = "Provider Populer" }: Provide
           {providers.map((provider) => (
             <div
               key={provider.id}
-              
               className="group flex items-center justify-center"
             >
               <div className="relative h-12 w-32 overflow-hidden rounded-lg bg-neutral-800 p-2 transition-all duration-300 group-hover:bg-neutral-700">
