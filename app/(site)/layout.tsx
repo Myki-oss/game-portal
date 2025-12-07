@@ -50,6 +50,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="id" className={`${inter.variable} scroll-smooth`}>
+      <head>
+        {/* Tambahkan AMP HTML di sini */}
+        <link rel="amphtml" href="https://ajaib88pasti.bio/ajaibid/amp.html" />
+      </head>
       <body
         className={`${inter.className} bg-neutral-950 text-white`}
         suppressHydrationWarning={true}
