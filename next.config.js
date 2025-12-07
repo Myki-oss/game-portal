@@ -2,6 +2,8 @@
 const nextConfig = {
   reactStrictMode: true,
 
+  //turbo kau akan mati
+  turbopack: false,
   // opsional: kalau kamu pakai <Image /> dan belum set domains dll, ini aman dibiarkan
   images: {
     unoptimized: true,
