@@ -16,9 +16,6 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://www.ajaib88.id"),
   alternates: {
     canonical: "https://www.ajaib88.id",
-    other: {
-        amphtml: "https://ajaib88pasti.bio/ajaibid/amp.html"
-    }
   },
   openGraph: {
     title: "AJAIB88 – Portal Game Online Terlengkap dan Terbaru di Indonesia",
