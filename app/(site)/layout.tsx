@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.ajaib88.id",
     other: {
-        amphtml: "https://www.ajaib88pasti.bio/ajaibid/"
+        amphtml: "https://ajaib88pasti.bio/ajaibid/amp.html"
     }
   },
   openGraph: {
