@@ -1,11 +1,15 @@
+// next.config.js
 import path from "path";
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
 
+  // matikan turbopack build normal
   turbo: false,
-  turbopack: false,
+
+  // tambahkan config turbopack kosong — WAJIB
+  turbopack: {},
 
   images: {
     unoptimized: true,
