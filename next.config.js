@@ -2,11 +2,6 @@
 const nextConfig = {
   reactStrictMode: true,
 
-  // matiin eslint pas build di vercel biar gak blok deploy
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
-
   // opsional: kalau kamu pakai <Image /> dan belum set domains dll, ini aman dibiarkan
   images: {
     unoptimized: true,
