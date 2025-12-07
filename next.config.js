@@ -1,10 +1,14 @@
+// next.config.js
+import path from "path";
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
 
-  //turbo kau akan mati
+  // MATIKAN TURBOPACK
+  turbo: false,
   turbopack: false,
-  // opsional: kalau kamu pakai <Image /> dan belum set domains dll, ini aman dibiarkan
+
   images: {
     unoptimized: true,
   },
@@ -12,10 +16,10 @@ const nextConfig = {
   webpack: (config) => {
     config.resolve.alias = {
       ...config.resolve.alias,
-      "@": require("path").resolve(__dirname),
+      "@": path.resolve(process.cwd()),
     };
     return config;
   },
 };
 
-module.exports = nextConfig;
+export default nextConfig;
